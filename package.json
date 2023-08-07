@@ -1,0 +1,22 @@
+{
+  "name": "phonepay_interview",
+  "version": "1.0.0",
+  "description": "Problem:  - RM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "npx nodemon",
+    "build": "rimraf ./build && tsc",
+    "start": "npm run build && node build/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.4.8",
+    "nodemon": "^3.0.1",
+    "rimraf": "^5.0.1",
+    "typedi": "^0.10.0",
+    "typescript": "^5.1.6"
+  }
+}
